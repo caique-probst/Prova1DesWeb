@@ -39,7 +39,7 @@ input[type="date"] {
     border: 1px solid #293277;
     padding: 10px;
     width: 100%;
-    max-width: 300px; /* Ajuste conforme necessário */
+    max-width: 300px;
 }
 
 button {
@@ -71,23 +71,22 @@ ul li a {
 
 ul li a {
     text-decoration: none;
-    color: black; /* Cor do texto */
-    background-color: white; /* Fundo branco */
+    color: black; 
+    background-color: white;
     padding: 10px 15px;
-    border: 5px; /* Bordas arredondadas */
+    border: 5px; 
 }
 
-/* Estiliza o link ativo ('Home') */
+
 ul li a.active {
-    background-color: orange; /* Fundo laranja */
-    color: white; /* Cor do texto */
+    background-color: orange; 
+    color: white; 
 }
 
-/* Adiciona efeito hover aos links */
 ul li a:hover {
-    background-color: orange; /* Fundo laranja */
-    color: white; /* Cor do texto */
-    transition: background-color 0.3s, color 0.3s; /* Transição suave */
+    background-color: orange;
+    color: white; 
+    transition: background-color 0.3s, color 0.3s; 
 }
 
 
