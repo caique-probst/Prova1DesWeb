@@ -27,7 +27,7 @@ ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
     width: 88%;
 }
 
@@ -36,15 +36,26 @@ ul li a {
     text-decoration: none;
 }
 
-li:hover{
-    background-color: grey;
+
+ul li a {
+    text-decoration: none;
+    color: black; 
+    background-color: white;
+    padding: 10px 15px;
+    
+}
+
+ul li a.active {
+    background-color: orange; 
+    color: white; 
 }
 
 
-  .imgheader{
-    position: relative;
-    left: 85%;
-  }
+ul li a:hover {
+    background-color: orange; 
+    color: white; 
+    transition: background-color 0.3s, color 0.3s; 
+}
 
   .imgfooter{
     position: relative;
