@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header,
+footer {
+    background-color: #293277;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    width: 88%;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    /* Cor do texto */
+    background-color: white;
+    /* Fundo branco */
+    padding: 10px 15px;
+
+}
+
+/* Estiliza o link ativo ('Home') */
+ul li a.active {
+    background-color: orange;
+    /* Fundo laranja */
+    color: white;
+    /* Cor do texto */
+}
+
+/* Adiciona efeito hover aos links */
+ul li a:hover {
+    background-color: orange;
+    /* Fundo laranja */
+    color: white;
+    /* Cor do texto */
+    transition: background-color 0.3s, color 0.3s;
+    /* Transição suave */
+}
+
+
+
+.TittleFooter {
+    text-align: center;
+    color: white;
+}
+
+div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: -465px;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 600px;
+    margin-top: 150px;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 600px;
+}
+table {
+    font-family: arial, sans-serif;
+    width: 50%;
+    margin-left: 600px;
+    margin-bottom: 200px;
+  }
+th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
