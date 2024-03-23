@@ -57,7 +57,7 @@ ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
     width: 88%;
 }
 
@@ -66,6 +66,27 @@ ul li a {
     text-decoration: none;
 }
 
+
+ul li a {
+    text-decoration: none;
+    color: black; /* Cor do texto */
+    background-color: white; /* Fundo branco */
+    padding: 10px 15px;
+    
+}
+
+/* Estiliza o link ativo ('Home') */
+ul li a.active {
+    background-color: orange; /* Fundo laranja */
+    color: white; /* Cor do texto */
+}
+
+/* Adiciona efeito hover aos links */
+ul li a:hover {
+    background-color: orange; /* Fundo laranja */
+    color: white; /* Cor do texto */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave */
+}
 
 
 
