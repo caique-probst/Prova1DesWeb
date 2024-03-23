@@ -50,8 +50,9 @@ button {
     cursor: pointer;
 }
 
-/* Ajustes adicionais para ul/li/a conforme necessário */
+
 ul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -64,6 +65,9 @@ ul li a {
     color: white;
     text-decoration: none;
 }
+
+
+
 
 .TittleFooter {
     text-align: center;
