@@ -23,10 +23,15 @@ ul {
     position: relative;
     margin: 5px;
     padding: 0;
-    width: 200px;
     background-color: #fff;
     border: 1px solid #000;
     top: -162px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 88%;
   }
   
   li a {
@@ -74,4 +79,27 @@ ul {
     align-items: center;
     justify-content: center;
     justify-self: center;
+}
+
+main {
+    flex-grow: 1; 
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.imgmulher{
+    position: absolute;
+    left: 35%;
+    top: 38%;
+    width: 700px;
+}
+
+.tittletitulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
